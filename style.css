@@ -1,0 +1,205 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'General Sans', sans-serif;
+    color: aliceblue;
+}
+
+body{
+    background-color: black;
+}
+
+.navbar{
+    height: 90px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 35px;
+    position: fixed;
+    background-color: black;
+
+}
+
+.navbar a{
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.navbar button{
+    background: none;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#hero{
+    height: 120vh;
+    width: 100%;
+    padding: 120px 35px;
+    background-color: red;
+}
+
+h1 span{
+    color: #a3a3a3;
+    font-weight: 500;
+}
+
+h1{
+    margin-top: 30px;
+    font-size: 11vw;
+    line-height: 10vw;
+}
+
+.d{
+    padding-left: 13vw;
+}
+
+.b{
+    font-size: 16px;
+    font-weight: 500;
+    padding-left: 56vw;
+    margin-bottom: 150px;
+}
+
+.a h6{
+    text-align: end;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.l{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.l a{
+    text-decoration: none;
+    display: flex;
+    font-size: 1rem;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 16
+}
+
+.btn button{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    border: none;
+    background-color: #a3a3a3;
+}
+
+.btn button .material-symbols-outlined{
+    font-size: 20px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#section{
+    height: 120vh;
+    width: 100%;
+    padding: 5px 85px 5px 35px;
+    background-color: blue;
+}
+
+.sec{
+    border-top: 1px solid #a3a3a3;
+    border-bottom: 1px solid #a3a3a3;
+    padding: 50px 10px 50px 10px;
+}
+
+.sec h2{
+    font-size: 7.4vw;
+    color: #a3a3a3;
+}
+
+
+#profile{
+    height: 80vh;
+    width: 100%;
+    background-color: bisque;
+    padding: 80px 35px;
+}
+
+#profile h4{
+    color: #a3a3a3;
+    font-size: 1.2vmax;
+    font-weight: 500;
+}
+
+.pro{
+    display: flex;
+    gap: 50px;
+    justify-content: end;
+}
+
+.p{
+    height: 18vw;
+    width: 18vw;
+}
+
+.about{
+    width: 34vw;
+}
+
+.about p{
+    font-size: 1.4vw;
+}
+
+.about button{
+    margin-top: 10px;
+    font-size: 1.25vw;
+    color: aliceblue;
+    background-color: black;
+    border: 0.5px solid aliceblue;
+    padding: 6px 12px;
+    border-radius: 30px;
+}
+
+.about button:hover{
+    color: black;
+    background-color: aliceblue;
+    border: 0.5px solid black;
+}
+
+.channel{
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+}
+
+footer{
+    padding: 40px 35px;
+}
+
+footer h6{
+    font-size: 1.2vw;
+    font-weight: 500;
+}
+
+.foot{
+    display: flex;
+    justify-content: space-between;
+}
+
+.copy{
+    display: flex;
+    gap: 20px;
+}
+
+.follow{
+    display: flex;
+    gap: 20px;
+}
