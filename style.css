@@ -10,6 +10,35 @@ body{
     background-color: black;
 }
 
+.load{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #a3a3a3;
+    position: absolute;
+    top: 0%;
+    z-index: 99;
+}
+
+#circle{
+    pointer-events: none;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    transform: translate(-50%,-50%);
+    height: 3vw;
+    width: 3vw;
+    background-color: aliceblue;
+    border-radius: 50%;
+    transition: all cubic-bezier(0.175, 0.885, 0.32, 1.275)0.5s;
+}
+
+.load h4{
+    color: black;
+}
+
 .navbar{
     height: 90px;
     width: 100%;
@@ -17,7 +46,7 @@ body{
     align-items: center;
     justify-content: space-between;
     padding: 0px 35px;
-    position: fixed;
+    /* position: fixed; */
     background-color: black;
 
 }
@@ -39,7 +68,6 @@ body{
     height: 120vh;
     width: 100%;
     padding: 120px 35px;
-    background-color: red;
 }
 
 h1 span{
@@ -111,7 +139,6 @@ h1{
     height: 120vh;
     width: 100%;
     padding: 5px 85px 5px 35px;
-    background-color: blue;
 }
 
 .sec{
@@ -129,7 +156,6 @@ h1{
 #profile{
     height: 80vh;
     width: 100%;
-    background-color: bisque;
     padding: 80px 35px;
 }
 
