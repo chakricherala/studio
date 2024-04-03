@@ -24,15 +24,13 @@ body{
 
 #circle{
     pointer-events: none;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+    width: 10px;
+    height: 10px;
     position: absolute;
-    top: 0%;
-    left: 0%;
-    transform: translate(-50%,-50%);
-    height: 3vw;
-    width: 3vw;
-    background-color: aliceblue;
+    z-index: 99999;
     border-radius: 50%;
-    transition: all cubic-bezier(0.175, 0.885, 0.32, 1.275)0.5s;
+    background-color: #fff;
 }
 
 .load h4{
@@ -145,6 +143,14 @@ h1{
     border-top: 1px solid #a3a3a3;
     border-bottom: 1px solid #a3a3a3;
     padding: 50px 10px 50px 10px;
+}
+
+.sec img{
+    height: 30vw;
+    width: auto;
+    position: absolute;
+    opacity: 0;
+    /* display: none; */
 }
 
 .sec h2{
