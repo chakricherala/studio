@@ -8,6 +8,7 @@
 
 body{
     background-color: black;
+    position: relative;
 }
 
 .load{
@@ -25,10 +26,10 @@ body{
 #circle{
     pointer-events: none;
     transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
-    width: 10px;
-    height: 10px;
+    width: 2vw;
+    height: 2vw;
     position: absolute;
-    z-index: 99999;
+    z-index: 9;
     border-radius: 50%;
     background-color: #fff;
 }
@@ -44,7 +45,7 @@ body{
     align-items: center;
     justify-content: space-between;
     padding: 0px 35px;
-    /* position: fixed; */
+    position: fixed;
     background-color: black;
 
 }
@@ -63,7 +64,7 @@ body{
 }
 
 #hero{
-    height: 120vh;
+    height: 100vh;
     width: 100%;
     padding: 120px 35px;
 }
@@ -143,10 +144,12 @@ h1{
     border-top: 1px solid #a3a3a3;
     border-bottom: 1px solid #a3a3a3;
     padding: 50px 10px 50px 10px;
+    position: relative;
 }
 
 .sec img{
     height: 30vw;
+    pointer-events: none;
     width: auto;
     position: absolute;
     opacity: 0;
